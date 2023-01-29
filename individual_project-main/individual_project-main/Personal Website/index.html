@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osman Mert Altintas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+</head>
+<body>
+    <main>
+    <nav class="navbar">
+        <div class="max-width">
+            <h2 class="logo">Altintas</h2>
+            <ul class="menu">
+                 <a href="#home" >Home</a>
+                <a href="#projects">Projects</a>
+                 <a href="#about">About</a>
+                 <a href="#skills">Skills</a> 
+                <a href="#contact">Contact</a> 
+            </ul>
+        </div>
+    </nav>
+
+    <!--home section-->
+    <article class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hey,</div>
+                <div class="text-2">I'm Osman Mert
+                     </div>
+            </div>
+        </div>
+    </article>
+    <!--projects-->
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="con-proj">
+            <div class="proje-kutu">
+                <h2>GuideCity</h2>
+                <div class="pro-img"><img src="./images/javascript-39404.png" alt=""></div>
+                
+                <p> Used technology HTML, CSS, Bootstrap , JS. There is responsive design. I designed the menu and content of a guide site of Pakistan.</p>
+                <a href="https://github.com/mert679/GuideCity">Detail</a>
+
+            </div>
+            <div class="proje-kutu">
+                <h2>Blog API</h2>
+                <div class="pro-img"><img src="./images/django.png" alt=""></div>
+                <p> I built Rest API with using Django REST_Framework, and MySql. This is one of the project, developed for volunteer society</p>
+                <a href="https://github.com/mert679/DT-django">Detail</a>
+            </div>
+            <div class="proje-kutu">
+                <h2>Advanture Game</h2>
+                <div class="pro-img"><img src="./images/icpy.png" alt=""></div>
+                <p>  I built it by setting up a 2d list. The game is played against the computer and the scores are written to
+                    the json file.</p>
+                <a href="https://github.com/mert679/advanture_game_python">Detail</a>
+            </div>
+        </div>
+    </section>
+   <!--about section-->
+   <section class="about" id="about">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+            <div class="column-left">
+                <img src="https://images.unsplash.com/photo-1518481612222-68bbe828ecd1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+            </div>
+            <div class="column-right">
+                
+                <p class="text">Hi dear! I am Osman Mert but I prefer Mert :) I am a 3rd year student at Middle East Technical University.
+                    My department is Computer Education and Instructional Technology. I am interested software and I like to use software create something and developed it.
+                    I love to improve myself and gain new knowledge. I also have a special interest in chess, fishing, archeology research. 
+                    Also, I love to listening music while I am walking. My favorite song is Kimseye Etmem Şikayet. In addition, In my spare time, I try to read books. my favorite book is What Does a Man Live With?
+                    It is a story written by Lev Tolstoy. My favorite dessert is white chocolate cake.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="title">Skills</h2>
+        <div class="skill-content">
+            
+            <div class="skill-text">
+                <p>I first started programming with python, I did a few projects like clock application, then the web part started to attract my attention more web technologies for almost 6 months
+                    i am interested in. In the web part, I first focused on the Frontend side, that is, the visual part. The technologies I use are HTML, CSS, Javascript. I have designed many websites with these technologies, such as New Year countdown, counter, Todo list.
+                    And then, I move to the backend side. I learned Django, NestJs,MySql,SQLite3. 
+                </p>
+            </div>
+            <table id="SkillTable">
+                <tr>
+                  <th>Framework</th>
+                  <th>MyProject Number</th>
+                  <th>Language</th>
+                </tr>
+               
+                <tr>
+                  <td>Django</td>
+                  <td>4</td>
+                  <td>Python</td>
+                </tr>
+                <tr>
+                  <td>React</td>
+                  <td>2</td>
+                  <td>Javascript</td>
+                </tr>
+                <tr>
+                  <td>NestJs</td>
+                  <td>2</td>
+                  <td>TypeScript</td>
+                </tr>
+                <tr>
+                  <td>Flask</td>
+                  <td>3</td>
+                  <td>Python</td>
+                </tr>
+                <tr>
+                    <td>Jquery</td>
+                    <td>2</td>
+                    <td>Javascript</td>
+                  </tr>
+                
+              
+               
+              </table>
+         
+        
+        </div>
+    </section>
+    <!--Contact-->
+    <footer class="contact" id="contact">
+        <div class="footer" >
+            <h2 class="title">Contact Me</h2>
+
+
+            <div class="wrapper-form">
+                <p>Jr Software Developer Osman Mert Altıntaş, If you have any question, you can ask me.</p>
+                <form action="">
+                  <div class="container-inp">
+                    <div class="first-p">
+                        <div class="nam">
+                          <input type="text" placeholder="Name">
+                          <input type="text" placeholder="Surname">
+                        </div>
+                      <input type="tel" placeholder="5**"
+                      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                      <input type="email" placeholder="Email">
+                    </div>
+                    <div class="second-p">
+                      <textarea name="" id="" cols="30" rows="20" placeholder="Message"></textarea>
+                      <a href="mailto:mertaltintas31@hotmail.com">Send</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+            <div class="personal">
+                <a href="https://github.com/"><img src="../Personal Website/icons/github.png"></a>
+                <a href="https://twitter.com/home"><img src="../Personal Website/icons/twitter (1).png"></a>
+                <a href="https://www.linkedin.com/feed/"><img src="../Personal Website/icons/linkedin.png"></a>
+            </div>
+            <p class="place">2021 Ankara,Turkey</p>
+        </div>
+    </main>
+    </footer>
+
+
+<script src="app2.js"></script>
+
+</body>
+</html>
